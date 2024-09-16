@@ -177,6 +177,8 @@ public class Ejercicio_2 : MonoBehaviour
         }
 
 
+
+
     }
 
     // Update is called once per frame
