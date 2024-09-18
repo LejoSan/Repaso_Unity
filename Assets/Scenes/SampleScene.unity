@@ -232,9 +232,12 @@ GameObject:
   - component: {fileID: 1867162274}
   - component: {fileID: 1867162275}
   - component: {fileID: 1867162276}
+  - component: {fileID: 1867162279}
+  - component: {fileID: 1867162280}
+  - component: {fileID: 1867162281}
+  - component: {fileID: 1867162282}
   - component: {fileID: 1867162278}
   - component: {fileID: 1867162277}
-  - component: {fileID: 1867162261}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -267,18 +270,6 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f02ab4d40c197b4f9e45b5ea3f0a3d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1867162261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1867162257}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681d02bbef4eab34d971628f886ab205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1867162262
@@ -494,3 +485,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d1665debed50b644a5ccd7ff0cacc94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1867162279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d25ca8cfeec21448e53021dbd9b5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radio: 10
+  Base: 5
+  Altura: 12
+  lado_1: 5
+  lado_2: 5
+  Pi: 3.1416
+--- !u!114 &1867162280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf1ffc7322c61942926d2c8ead839f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Alejandro
+  apellido1: Sandoval
+  apellido2: Paz
+  Edad: 25
+--- !u!114 &1867162281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebc2461136c1cb4bbd1287ec7822412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidad: 10
+  moneda: euro
+--- !u!114 &1867162282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33354ca4e07fb2c4c954498cb1863c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad_Km_H: 10
