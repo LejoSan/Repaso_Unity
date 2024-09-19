@@ -288,6 +288,8 @@ GameObject:
   - component: {fileID: 1867162288}
   - component: {fileID: 1867162289}
   - component: {fileID: 1867162290}
+  - component: {fileID: 1867162291}
+  - component: {fileID: 1867162292}
   - component: {fileID: 1867162278}
   - component: {fileID: 1867162277}
   m_Layer: 0
@@ -692,7 +694,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867162257}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31f87684892cf3646b9467790c529d3e, type: 3}
   m_Name: 
@@ -705,7 +707,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867162257}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e430be8c979181f46a0c704add64cefe, type: 3}
   m_Name: 
@@ -713,6 +715,34 @@ MonoBehaviour:
   velocidadJugador1: 10
   velocidadJugador2: 5
   velocidadJugador3: 9
+--- !u!114 &1867162291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf9ef36ba31e2d40a2b777a60a029f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  H: 2
+  M: 10
+  S: 30
+--- !u!114 &1867162292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400a438dca51def43b0d3224b2d765c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipoEnemigo: 2
 --- !u!1 &1995295517
 GameObject:
   m_ObjectHideFlags: 0
