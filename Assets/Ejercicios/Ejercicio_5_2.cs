@@ -4,60 +4,29 @@ using UnityEngine;
 
 public class Ejercicio_5_2 : MonoBehaviour
 {
-
-    //bool W = false;
-    //bool X = true;
-    //bool Y = true;
-    //bool Z = false;
-
+    [SerializeField] private int Numero_1;
+    [SerializeField] private int Numero_2;
     // Start is called before the first frame update
     void Start()
     {
-        //A.  W || Y && X && W || Z 
+        if (Numero_1 > 3 && Numero_2 > 3)
+        {
+            Debug.Log("El numero   " + Numero_1 + " > " + 3 + "  y numero es  " + Numero_2 + " > " + 3);
+        }
+        if (Numero_1 < 3 && Numero_2 < 3)
+        {
+            Debug.Log("El numero   " + Numero_1 + " < " + 3 + "  y numero es  " + Numero_2 + " < " + 3);
 
-        //    (True) && (True) && (False)
+        }
+        if (Numero_1 < 3 && Numero_2 > 3)
+        {
+            Debug.Log("El numero   " + Numero_1 + " < " + 3 + "  y numero es  " + Numero_2 + " > " + 3);
 
-        //    R/. False
-
-        //-----------------------------------------------
-
-        //B.  X && !Y && !X || !W && Y 
-
-        //    (False) || (True)
-
-        //    R/. True
-
-        //-----------------------------------------------
-
-        //C.  !(W || !Y) && X || Z 
-
-        //    (True) || (False)
-
-        //    R/. True
-
-        //-----------------------------------------------
-
-        //D.   X && Y && W || Z || X 
-
-        //    (False) || (True)
-
-        //    R/. True
-
-        //-----------------------------------------------
-
-        //E.   Y || !(Y || Z && W )
-
-        //    (True) || (False)
-
-        //    R/. True
-
-        //-----------------------------------------------
-
-        //F.   !X && Y && (!Z || !X )
-
-        //    (False) && (True) && (True)
-
-        //    R/. False
+        }
+        if (Numero_1 > 3 && Numero_2 < 3)
+        {
+            Debug.Log("El numero   " + Numero_1 + " > " + 3 + "  y numero es  " + Numero_2 + " < " + 3);
+        }
     }
 
     // Update is called once per frame

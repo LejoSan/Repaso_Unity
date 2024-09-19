@@ -236,6 +236,11 @@ GameObject:
   - component: {fileID: 1867162280}
   - component: {fileID: 1867162281}
   - component: {fileID: 1867162282}
+  - component: {fileID: 1867162283}
+  - component: {fileID: 1867162284}
+  - component: {fileID: 1867162285}
+  - component: {fileID: 1867162286}
+  - component: {fileID: 1867162287}
   - component: {fileID: 1867162278}
   - component: {fileID: 1867162277}
   m_Layer: 0
@@ -540,9 +545,83 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867162257}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33354ca4e07fb2c4c954498cb1863c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad_Km_H: 10
+--- !u!114 &1867162283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed4aa053eb279e4fb7e0a8f88d20ace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radio: 10
+  Base: 20
+  Altura: 30
+  lado_1: 40
+  lado_2: 50
+  Pi: 3.1416
+  moneda: dolar
+--- !u!114 &1867162284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ade38598ae76bd4eb24d17656e90618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje_1: 10
+  personaje_2: 20
+--- !u!114 &1867162285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be339f3e8e99dc40b86305628889dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Numero_1: 4
+  Numero_2: 4
+--- !u!114 &1867162286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 823609a31a0d9854aa0d520acc9fb364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero: 11
+--- !u!114 &1867162287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c8e427d8db12ca489c0b6932099ab8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dividendo: 10
+  divisor: 2

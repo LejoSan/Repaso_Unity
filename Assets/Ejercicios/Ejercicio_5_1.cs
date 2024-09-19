@@ -4,62 +4,25 @@ using UnityEngine;
 
 public class Ejercicio_5_1 : MonoBehaviour
 {
-    //bool X = true;
-    //bool Y = false;
-    //bool Z = true;
 
+    [SerializeField] private int personaje_1;
+    [SerializeField] private int personaje_2;
     // Start is called before the first frame update
     void Start()
     {
-        //A.  ((X && Y) || (X && Z))
+        if (personaje_1 > personaje_2)
+        {
+            Debug.Log("las vidas de los personajes no son iguales  " + personaje_1 +" > "+ personaje_2);
+        }
+        if(personaje_1 < personaje_2)
+        {
+            Debug.Log("las vidas de los personajes no son iguales  " + personaje_1 + " < " + personaje_2);
 
-        //    (False) || (True)
-
-        //    R/. True
-
-        //-----------------------------------------------
-
-
-        //B.  (X || !Y) && (!X || Z)
-
-        //    (True) && (True)
-
-        //    R/. True
-
-        //-----------------------------------------------
-
-
-        //C.  (X) || Y && Z
-
-        //    (True) || (False)
-
-        //    R/. True
-
-        //-----------------------------------------------
-
-        //D.  !(X || Y) && Z
-
-        //    (False) && (True)
-
-        //    R/. False
-
-        //-----------------------------------------------
-
-        //E.  X || Y || X  && !Z && !Y 
-
-        //    (True) || (False)
-
-        //    R/. True
-
-        //-----------------------------------------------
-
-        //F.  !X || !Y || Z && X && !Y 
-
-        //    (True) || (True)
-
-        //    R/. True
-
-
+        }
+        else
+        {
+            Debug.Log("Las vidas de los personajas son iguales  " + personaje_1 + " = " + personaje_2);
+        }
     }
 
     // Update is called once per frame

@@ -70,7 +70,7 @@ public class Ejercicio_4_5 : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Moneda no reconocida. Escribe 'euro' o 'dolar'");
+            Debug.Log("Moneda no reconocida. Escribe 'euro' o 'dolar'");
             return 0;
         }
     }
