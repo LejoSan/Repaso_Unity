@@ -299,6 +299,9 @@ GameObject:
   - component: {fileID: 1867162297}
   - component: {fileID: 1867162298}
   - component: {fileID: 1867162299}
+  - component: {fileID: 1867162300}
+  - component: {fileID: 1867162301}
+  - component: {fileID: 1867162302}
   m_Layer: 0
   m_Name: GameObject - Ejercicios - Repaso
   m_TagString: Untagged
@@ -840,6 +843,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numero_1: 5
   numero_2: 2
+--- !u!114 &1867162300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ebd1ab4dfa85e47befc50e3fcf2bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero_1: 1
+  numero_2: 10
+--- !u!114 &1867162301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c7c0353aba6aa6408df0b648b849ed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero_1: 20
+--- !u!114 &1867162302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 535362699e393ef42805dbbd30066163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero_1: 5
+  numero_2: -2
 --- !u!1 &1995295517
 GameObject:
   m_ObjectHideFlags: 0
