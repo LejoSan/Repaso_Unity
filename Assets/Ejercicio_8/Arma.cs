@@ -9,6 +9,13 @@ public class Arma : MonoBehaviour
     [SerializeField] private float capacidadTotal;
     [SerializeField] private bool esAutomatica;
     [SerializeField] private float municionActual;
+
+    public float DanhoMinimo { get => danhoMinimo; set => danhoMinimo = value; }
+    public float DanhoMaximo { get => danhoMaximo; set => danhoMaximo = value; }
+    public float CapacidadTotal { get => capacidadTotal; set => capacidadTotal = value; }
+    public bool EsAutomatica { get => esAutomatica; set => esAutomatica = value; }
+    public float MunicionActual { get => municionActual; set => municionActual = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +26,25 @@ public class Arma : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public int UtilizarArma()
+    {
+        if (MunicionActual > 0)
+        {
+            MunicionActual--; 
+            return 0; 
+        }
+        return -1; 
+    }
+
+    public int RecargarArma()
+    {
+        if (MunicionActual < CapacidadTotal)
+        {
+            MunicionActual = CapacidadTotal; 
+            return 0; 
+        }
+        return -1; 
     }
 }

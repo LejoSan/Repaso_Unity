@@ -40,7 +40,10 @@ public class GameManager : MonoBehaviour
 
     void prepararPersonjaes()
     {
-        
+
+        personaje1.Enemigo = personaje2;
+        personaje2.Enemigo = personaje1;
+
         Debug.Log(personaje1.Nombre + " tiene nivel: " + personaje1.CalcularNivel());
         Debug.Log(personaje2.Nombre + " tiene nivel: " + personaje2.CalcularNivel());
     }
